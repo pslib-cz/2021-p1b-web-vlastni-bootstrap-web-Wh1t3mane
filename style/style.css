@@ -1,7 +1,9 @@
 body {
-    background-color: rgb(51, 50, 50);
+    background-color: rgb(51, 50, 50);/*rgb(51, 50, 50)*/
 }
 
+/*Index*/
+/*Header*/
 .bi {
     vertical-align: -0.125em;
     fill: currentColor;
@@ -33,7 +35,7 @@ header {
         margin-top: 20px;
         padding-left: 8px;
     }
-}
+}/*End-Header*/
 
 /*Hero*/
 #hero{
@@ -41,7 +43,7 @@ header {
     background-repeat: no-repeat;
     width: 100%;
     height: 80vh;
-    background-image: url("/img/pozadi.jpg");
+    background-image: url("/img/pozadi_my.jpg");
     background-size: cover;
     position: relative;
 }
@@ -62,8 +64,105 @@ header {
 
 .hero-size {
     font-size: 50px;
-    color: #BADA55;
+    color: #000000;
     font-weight: bold;
+}/*Hero*/
+/*End-Index*/
+
+/*Winter*/
+/*Hero*/
+#hero-winter{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    background-image: url("/img/nadrz.jpg");
+    background-size: cover;
+    position: relative;
 }
+
+#hero-winter .container {
+    padding-top: 72px;
+    position: relative;
+    text-align: center;
+}
+  
+.hero-winter-text {
+    margin-top: 100px;
+    text-align: center;
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+}
+
+.hero-winter-size {
+    font-size: 50px;
+    color: #000000;
+    font-weight: bold;
+}/*End-Hero*/
+
+/*Sezona*/
+.sezona {
+    margin-top: 50px;
+    color: white;
+}
+
+h3 {
+    margin-top: 30px;
+}
+
+table {
+    margin-top: 20px;
+    background-color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.margin-top-my {
+    margin-top: 20px;
+}
+
+.odsazeni-50-top {
+    margin-top: 50px;
+}/*End-Sezona*/
+/*End-Winter*/
+
+/*Contact*/
+/*Carousel*/
+#carousel-my {
+    padding: 0px;
+}
+
+.sipka {
+    width: 19rem;
+    height: 6rem;
+    background-color: rgb(51, 50, 50);
+}
+
+.odsazeni-50 {
+    margin-bottom: 50px;
+}
+
+h5 {
+    font-size: 3rem;
+    color: white;
+}
+
+.carousel-text-my {
+    font-size: 1.5rem;
+}/*End-Carousel*/
+
+/*Formular*/
+.formular {
+    margin-top: 50px;
+}
+
+.barva {
+    color: white;
+}/*End-Formular*/
+/*End-Contact*/
+
   
 
