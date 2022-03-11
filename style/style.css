@@ -76,7 +76,7 @@ header {
     background-repeat: no-repeat;
     width: 100%;
     height: 80vh;
-    background-image: url("/img/nadrz.jpg");
+    background-image: url("/img/zima_pozadi.jpg");
     background-size: cover;
     position: relative;
 }
@@ -128,6 +128,39 @@ table {
     margin-top: 50px;
 }/*End-Sezona*/
 /*End-Winter*/
+
+/*Summer*/
+/*Hero*/
+#hero-summer{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    background-image: url("/img/leto_pozadi.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+#hero-summer .container {
+    padding-top: 72px;
+    position: relative;
+    text-align: center;
+}
+  
+.hero-summer-text {
+    margin-top: 100px;
+    text-align: center;
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+}
+
+.hero-summer-size {
+    font-size: 50px;
+    color: #000000;
+    font-weight: bold;
+}/*End-Hero*/
+/*End-Summer*/
 
 /*Contact*/
 /*Carousel*/
